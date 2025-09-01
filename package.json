@@ -4,6 +4,9 @@
   "description": "",
   "type": "module",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "npx tsx watch src/server.ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
@@ -29,6 +32,7 @@
     "dotenv": "^17.2.1",
     "fastify": "^5.5.0",
     "knex": "^3.1.0",
+    "pg": "^8.16.3",
     "sqlite3": "^5.1.7",
     "zod": "^4.0.17"
   }
